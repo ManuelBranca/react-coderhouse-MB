@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../img/cofax.png';
 import CartWidget from '../CarritoWidget/CarritoWidget';
 import {NavLink} from 'react-router-dom';
 
@@ -20,7 +19,7 @@ return (
                 >
                 <span className='navbar-toggler-icon'></span>
                 </button>
-                <NavLink className="nav-title navbar-img" to='/'><img src={Logo} alt={"Logo de la empresa"} className='nav-img' />Cofax</NavLink>
+                <NavLink className="nav-title navbar-img" to='/'>Mi tienda</NavLink>
                 <div className="collapse navbar-collapse orden" id="navbarTogglerDemo03">
                     <ul className='navbar-nav mt-2 mb-2 mb-lg-0'>
                         <li className='nav-item'>

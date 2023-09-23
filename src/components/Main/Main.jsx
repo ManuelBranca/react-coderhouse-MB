@@ -1,8 +1,5 @@
 import React from 'react'
 import Gamer from '../../img/gamer.webp';
-import Lider from '../../img/dirigir.png';
-import Variedad from '../../img/upc.png';
-import Precio from '../../img/mejor-precio.png'
 import './Main.css'
 
 const Main = () => {
@@ -11,7 +8,7 @@ const Main = () => {
         <div className='container mt-5 landing'>
         <div className='row'>
           <div className='col-5 titulo-y-subtitulo'>
-            <h1 className='titulo'>Cofax Hardware</h1>
+            <h1 className='titulo'>Mi tienda</h1>
             <h2 className='subtitulo'>Más de 10 años brindando los mejores servicios informáticos.</h2>
           </div>
           <div className='col-5'>
